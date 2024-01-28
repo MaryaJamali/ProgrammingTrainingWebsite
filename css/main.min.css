@@ -13,7 +13,7 @@
 }
 
 #header-first-section {
-  background-color: #766153;
+  background-color: #A78363;
 }
 #header-first-section .menu {
   display: flex;
@@ -34,7 +34,7 @@
   border-left: none;
 }
 #header-first-section .menu nav ul li:hover {
-  background-color: #947a68;
+  background-color: #b99d84;
   color: whitesmoke;
 }
 #header-first-section .menu nav ul li a {
@@ -83,7 +83,7 @@
   position: absolute;
   top: 10px;
   left: 15px;
-  color: #2947cf;
+  color: rgba(175, 125, 78, 0.9607843137);
 }
 #header-second-section .search-bar .input-section input {
   display: inline-block;
