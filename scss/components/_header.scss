@@ -1,0 +1,99 @@
+#header-first-section {
+    background-color: $color-primary;
+
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        nav {
+            
+            ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+
+                li {
+                    float: right;
+                    transition: all ease .3s;
+                    padding: 8px 0;
+
+                    &:last-child {
+                        a {
+                            border-left: none;
+                        }
+                    }
+
+                    &:hover {
+                        background-color: lighten($color: $color-primary, $amount: 10);
+                        color: whitesmoke;
+                    }
+
+                    a {
+                        color: white;
+                        text-decoration: none;
+                        padding: 2px 10px;
+                        display: inline-block;
+                        font-size: 14px;
+                        border-left: .2px solid #252525;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#header-second-section {
+    min-height: 550px;
+    background: url('/img/background.jpg');
+    position: relative;
+
+    .headings {
+        z-index: 10;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 40px;
+
+        h1 {
+            color: white;
+            font-size: 26px;
+        }
+
+        h2 {
+            color: white;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+    }
+
+    .search-bar {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .input-section {
+            width: 550px;
+            position: relative;
+
+            i {
+                position: absolute;
+                top: 10px;
+                left: 15px;
+                color: #2947cf;
+            }
+
+            input {
+                display: inline-block;
+                width: 100%;
+                border: none;
+                border-radius: 15px;
+                padding: 8px 12px;
+                outline: none;
+            }
+        }
+    }
+}
