@@ -47,8 +47,8 @@
 }
 
 #header-second-section {
-  min-height: 550px;
-  background: url("/img/background.jpg");
+  height: 600px;
+  background: url("/img/background2.jpg");
   position: relative;
 }
 #header-second-section .headings {
@@ -57,19 +57,19 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 40px;
+  margin-top: 90px;
 }
 #header-second-section .headings h1 {
-  color: white;
+  color: rgb(14, 13, 13);
   font-size: 26px;
 }
 #header-second-section .headings h2 {
-  color: white;
+  color: rgb(14, 13, 13);
   font-size: 18px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 #header-second-section .search-bar {
-  margin-top: 50px;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
