@@ -62,7 +62,7 @@
 
 #header-second-section {
   min-height: 500px;
-  background: url("/img/background2.jpg");
+  background: url("/img/background.jpg");
   position: relative;
   background-size: cover;
   background-position: center;
@@ -212,4 +212,17 @@
   visibility: hidden;
   right: 260px;
   top: 0;
+}
+
+#slider #header-slider {
+  margin-top: 20px;
+}
+#slider #header-slider .swiper-wrapper .swiper-slide .slider-box a {
+  display: inline-block;
+  width: 100%;
+}
+#slider #header-slider .swiper-wrapper .swiper-slide .slider-box a img {
+  border-radius: 12px;
+  width: 100%;
+  height: 300px;
 }/*# sourceMappingURL=main.min.css.map */
