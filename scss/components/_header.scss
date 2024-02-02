@@ -43,9 +43,11 @@
 }
 
 #header-second-section {
-    height: 600px;
+    min-height: 500px;
     background: url('/img/background2.jpg');
     position: relative;
+    background-size: cover;
+    background-position: center;
 
     .headings {
         z-index: 10;
@@ -53,7 +55,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        margin-top: 90px;
+        margin-top: 60px;
 
         h1 {
             color: rgb(14, 13, 13);
@@ -68,7 +70,7 @@
     }
 
     .search-bar {
-        margin-top: 20px;
+        margin-top: 75px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -78,20 +80,28 @@
             width: 550px;
             position: relative;
 
-            i {
-                position: absolute;
-                top: 10px;
-                left: 15px;
-                color: #af7d4ef5;
-            }
-
-            input {
-                display: inline-block;
-                width: 100%;
-                border: none;
-                border-radius: 15px;
-                padding: 8px 12px;
-                outline: none;
+            form {
+                input {
+                    display: inline-block;
+                    width: 100%;
+                    border: none;
+                    border-radius: 15px;
+                    padding: 8px 12px;
+                    outline: none;
+                }
+        
+                button {
+                    border: none;
+                    outline: none;
+                    position: absolute;
+                    top: 7px;
+                    left: 10px;
+                    background-color: transparent;
+        
+                    i {
+                        color: #af7d4ef5;
+                    }
+                }
             }
         }
     }
