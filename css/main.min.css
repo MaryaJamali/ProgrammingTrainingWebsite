@@ -60,7 +60,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 60px;
+  margin-top: 90px;
 }
 #header-second-section .headings h1 {
   color: rgb(14, 13, 13);
@@ -72,7 +72,7 @@
   margin-top: 20px;
 }
 #header-second-section .search-bar {
-  margin-top: 75px;
+  margin-top: 90px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -106,7 +106,7 @@
   flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
-  max-width: 450px;
+  max-width: 400px;
   margin: 60px auto;
 }
 #header-second-section .statistics .items .item {
@@ -116,13 +116,13 @@
   align-items: center;
 }
 #header-second-section .statistics .items .item .item-icon i {
-  color: rgb(48, 29, 12);
-  font-size: 70px;
+  color: rgb(56, 27, 3);
+  font-size: 60px;
 }
 #header-second-section .statistics .items .item .item-value {
   margin-top: 12px;
   color: black;
 }
 #header-second-section .statistics .items .item .item-title {
-  color: rgb(48, 29, 12);
+  color: black;
 }/*# sourceMappingURL=main.min.css.map */
