@@ -20,6 +20,11 @@
                             border-left: none;
                         }
                     }
+                    &:first-child {
+                        a {
+                            padding-right: 0;
+                        }
+                    }
 
                     &:hover {
                         background-color: lighten($color: $color-primary, $amount: 10);
@@ -126,3 +131,87 @@
     }
 }
 
+#header-third-section {
+    border-bottom: 1px solid rgba(240, 217, 174, 0.884);
+    box-shadow: 0 0 1px 0 rgb(250, 210, 136);
+
+    nav {
+        &.main-menu {
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                z-index: 999;
+
+                li {
+                    padding: 5px 10px;
+                    float: right;
+                    position: relative;
+
+                    &:first-child {
+                        padding-right: 0;
+                    }
+
+                    a {
+                        text-decoration: none;
+                        color: black;
+                        padding: 10px 0;
+                        display: inline-block;
+                        font-size: 14px;
+                        @include flexbox($j_c: flex-start);
+                        transition: all ease .3s;
+
+                        &:hover {
+                            color: rgb(0, 191, 254);
+                        }
+
+                        span {
+                            margin-left: 5px;
+                        }
+                    }
+
+                    &:hover {
+                        & > ul {
+                            visibility: visible;
+                            opacity: 1;
+                        }
+                    }
+
+                    ul {
+                        transition: all ease .3s;
+                        visibility: hidden;
+                        opacity: 0;
+                        position: absolute;
+                        background-color: white;
+                        top: 50px;
+                        right: -8px;
+                        border: 1px solid rgba(106, 175, 221, .2);
+                        box-shadow: 0 0 3px 0 #eeeeee;
+                        padding: 8px 10px;
+                        width: 270px;
+                        border-radius: 8px;
+
+                        li {
+                            width: 100%;
+                            padding-right: 0;
+                            position: relative;
+
+                            a {
+                                @include flexbox($j_c: space-between);
+                                padding: 0;
+                            }
+
+                            ul {
+                                position: absolute;
+                                opacity: 0;
+                                visibility: hidden;
+                                right: 265px;
+                                top: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
