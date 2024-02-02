@@ -17,6 +17,7 @@
 }
 #header-first-section .menu {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
@@ -56,9 +57,9 @@
 #header-second-section .headings {
   z-index: 10;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   margin-top: 60px;
 }
 #header-second-section .headings h1 {
@@ -99,4 +100,29 @@
 }
 #header-second-section .search-bar .input-section form button i {
   color: rgba(175, 125, 78, 0.9607843137);
+}
+#header-second-section .statistics .items {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 450px;
+  margin: 60px auto;
+}
+#header-second-section .statistics .items .item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#header-second-section .statistics .items .item .item-icon i {
+  color: rgb(48, 29, 12);
+  font-size: 70px;
+}
+#header-second-section .statistics .items .item .item-value {
+  margin-top: 12px;
+  color: black;
+}
+#header-second-section .statistics .items .item .item-title {
+  color: rgb(48, 29, 12);
 }/*# sourceMappingURL=main.min.css.map */

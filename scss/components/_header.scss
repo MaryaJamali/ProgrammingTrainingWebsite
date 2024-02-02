@@ -2,9 +2,7 @@
     background-color: $color-primary;
 
     .menu {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        @include flexbox($j_c: space-between);
 
         nav {
             ul {
@@ -51,10 +49,7 @@
 
     .headings {
         z-index: 10;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+        @include flexbox($f_d: column);
         margin-top: 60px;
 
         h1 {
@@ -71,10 +66,7 @@
 
     .search-bar {
         margin-top: 75px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        @include flexbox($f_d: column);
 
         .input-section {
             width: 550px;
@@ -101,6 +93,33 @@
                     i {
                         color: #af7d4ef5;
                     }
+                }
+            }
+        }
+    }
+    .statistics {
+        .items {
+            @include flexbox($j_c: space-between, $f_d: row-reverse);
+            max-width: 450px;
+            margin: 60px auto;
+
+            .item {
+                @include flexbox($f_d: column);
+
+                .item-icon {
+                    i {
+                        color: rgb(48, 29, 12);
+                        font-size: 70px;
+                    }
+                }
+
+                .item-value {
+                    margin-top: 12px;
+                    color: black;
+                }
+
+                .item-title {
+                    color: rgb(48, 29, 12);
                 }
             }
         }
