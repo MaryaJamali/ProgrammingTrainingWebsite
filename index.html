@@ -8,6 +8,7 @@
     <!-- =========================Custom CSS========================== -->
     <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.rtl.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/main.min.css">
 </head>
 
@@ -232,9 +233,43 @@
         </div>
     </div>
     <!-- =========================End header========================== -->
+    <!-- =========================Start slides========================== -->
+    <div class="container" id="slider">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="swiper" id="header-slider">
+                    <!-- =========================Additional required wrapper========================== -->
+                    <div class="swiper-wrapper">
+                        <!-- =========================Slides========================== -->
+                        <div class="swiper-slide">
+                            <div class="slider-box">
+                                <a href="#">
+                                    <img src="img/slider-1.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider-box">
+                                <a href="#">
+                                    <img src="img/slider-2.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- =========================If we need pagination========================== -->
+                    <div class="swiper-pagination"></div>
+                    <!-- =========================If we need navigation buttons========================== -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- =========================Start slides========================== -->
     <!-- =========================All Jquery========================== -->
     <script src="lib/bootstrap//js/bootstrap.min.js"></script>
     <script src="lib/jquery/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 
