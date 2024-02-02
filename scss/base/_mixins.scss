@@ -4,3 +4,7 @@
     justify-content: $j_c;
     align-items: $a_i;
 }
+
+@mixin font_family() {
+    font-family: 'IranSans';
+}

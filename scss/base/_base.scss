@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'IranSans';
+    src: url('/fonts/IRANSansWeb.woff2') format('woff2'),
+        url('/fonts/IRANSansWeb.woff') format('woff'),
+        url('/fonts/IRANSansWeb.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    @include font_family();
+}
+
 .clearfix {
     clear: both;
 }
