@@ -267,4 +267,52 @@
   font-size: 14px;
   border-top-left-radius: 6px;
   border-bottom-right-radius: 6px;
+}
+.course-box .title {
+  padding: 4px 0;
+}
+.course-box .title a {
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+  display: inline-block;
+  width: 100%;
+  transition: all ease 0.3s;
+  font-weight: bold;
+}
+.course-box .title a:hover {
+  color: #1687d2;
+}
+.course-box .master {
+  padding: 4px 0;
+  color: #727272;
+  border-bottom: 1px solid rgba(216, 216, 216, 0.6);
+}
+.course-box .master span {
+  font-size: 12px;
+}
+.course-box .master i {
+  font-size: 12px;
+}
+.course-box .statistics {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.course-box .statistics .time {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 12px;
+  color: #00b3e9;
+}
+.course-box .statistics .time i {
+  margin-left: 4px;
+}
+.course-box .statistics .price {
+  font-size: 14px;
+  color: #6fc341;
 }/*# sourceMappingURL=main.min.css.map */
