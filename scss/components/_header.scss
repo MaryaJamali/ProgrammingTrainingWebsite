@@ -20,6 +20,7 @@
                             border-left: none;
                         }
                     }
+
                     &:first-child {
                         a {
                             padding-right: 0;
@@ -86,7 +87,7 @@
                     padding: 8px 12px;
                     outline: none;
                 }
-        
+
                 button {
                     border: none;
                     outline: none;
@@ -94,7 +95,7 @@
                     top: 7px;
                     left: 10px;
                     background-color: transparent;
-        
+
                     i {
                         color: #af7d4ef5;
                     }
@@ -102,6 +103,7 @@
             }
         }
     }
+
     .statistics {
         .items {
             @include flexbox($j_c: space-between, $f_d: row-reverse);
@@ -126,6 +128,18 @@
                 .item-title {
                     color: black;
                 }
+            }
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
+        .statistics {
+            display: none;
+        }
+
+        .search-bar {
+            .input-section {
+                max-width: 100%;
             }
         }
     }
@@ -171,7 +185,7 @@
                     }
 
                     &:hover {
-                        & > ul {
+                        &>ul {
                             visibility: visible;
                             opacity: 1;
                         }
@@ -213,5 +227,8 @@
                 }
             }
         }
+    }
+    @media only screen and (max-width: 600px) {
+        display: none;
     }
 }

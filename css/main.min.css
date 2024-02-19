@@ -139,6 +139,14 @@
 #header-second-section .statistics .items .item .item-title {
   color: black;
 }
+@media only screen and (max-width: 600px) {
+  #header-second-section .statistics {
+    display: none;
+  }
+  #header-second-section .search-bar .input-section {
+    max-width: 100%;
+  }
+}
 
 #header-third-section {
   border-bottom: 1px solid rgba(240, 217, 174, 0.884);
@@ -212,6 +220,11 @@
   visibility: hidden;
   right: 260px;
   top: 0;
+}
+@media only screen and (max-width: 600px) {
+  #header-third-section {
+    display: none;
+  }
 }
 
 #slider #header-slider {

@@ -10,8 +10,6 @@
             opacity: 1;
         }
     }
-
-
     .image {
         position: relative;
 
@@ -62,7 +60,6 @@
             }
         }
     }
-
     .master {
         padding: 4px 0;
         color: #727272;
@@ -76,7 +73,6 @@
             font-size: 12px;
         }
     }
-
     .statistics {
         margin-top: 8px;
         @include flexbox($j_c: space-between);
