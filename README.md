@@ -1,4 +1,5 @@
 # ProgrammingTrainingWebsite
-
-
-This project is under development. This part will be completed at the end of the project 😍
+Designing a programming training site using HTML, CSS, JavaScript, Bootstrap and jQuery
+Here is the demo:
+# Author
+maryam jamali 
