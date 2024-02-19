@@ -62,7 +62,7 @@
 
 #header-second-section {
   min-height: 500px;
-  background: url("/img/background.jpg");
+  background: url("/img/background/background.jpg");
   position: relative;
   background-size: cover;
   background-position: center;
