@@ -1,5 +1,5 @@
 .course-box {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding: 8px;
     border-radius: 6px;
     box-shadow: 0 0 8px 0 #d6d6d6;
@@ -84,7 +84,7 @@
         .time {
             @include flexbox($j_c: flex-start);
             font-size: 12px;
-            color: #00b3e9;
+            color: #6fc341;
 
             i {
                 margin-left: 4px;
@@ -93,7 +93,7 @@
 
         .price {
             font-size: 14px;
-            color: #6fc341;
+            color: #eb2929;
         }
     }
 }
