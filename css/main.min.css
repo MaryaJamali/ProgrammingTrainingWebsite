@@ -61,7 +61,7 @@
 }
 
 #header-second-section {
-  min-height: 550px;
+  min-height: 500px;
   background: url("/img/background/background-2.jpg");
   position: relative;
   background-size: cover;
@@ -372,9 +372,17 @@
   margin-top: 30px;
   margin-bottom: 0;
 }
+#footer-section .footer-middle .footer_widget .input-group {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 #footer-section .footer-middle .footer_widget .input-group .input-section {
   width: 350px;
   margin-top: 20px;
+  position: relative;
 }
 #footer-section .footer-middle .footer_widget .input-group .input-section form input {
   display: inline-block;
@@ -389,8 +397,8 @@
   outline: none;
   position: absolute;
   border-radius: 15px;
-  top: 30px;
-  left: -7px;
+  top: 10px;
+  left: 7px;
   background-color: transparent;
   color: rgba(175, 125, 78, 0.9607843137);
 }

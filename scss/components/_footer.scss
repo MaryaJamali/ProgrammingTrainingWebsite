@@ -47,10 +47,13 @@
             }
 
             .input-group {
+                margin-top: 90px;
+                @include flexbox($f_d: column);
 
                 .input-section {
                     width: 350px;
                     margin-top: 20px;
+                    position: relative;
 
                     form {
                         input {
@@ -67,8 +70,8 @@
                             outline: none;
                             position: absolute;
                             border-radius: 15px;
-                            top: 30px;
-                            left: -7px;
+                            top: 10px;
+                            left: 7px;
                             background-color: transparent;
                             color: #af7d4ef5;
 
