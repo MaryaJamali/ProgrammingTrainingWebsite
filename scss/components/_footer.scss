@@ -1,0 +1,82 @@
+#footer-section {
+    min-height: 350px;
+    background: #eec29b;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    @include font-family();
+
+    .footer-middle {
+        z-index: 10;
+        margin-top: 20px;
+
+        .footer_widget {
+
+            h4 {
+                margin-top: 30px;
+                margin-bottom: 0;
+
+            }
+
+            ul {
+                list-style: none;
+                padding: 0;
+                margin: 10px;
+
+                li {
+                    padding: 4px 0;
+
+                    a {
+                        text-decoration: none;
+                        font-size: 16px;
+                        color: rgb(0, 0, 0);
+                        display: inline-block;
+                        width: 100%;
+                        transition: all ease .3s;
+
+                        &:hover {
+                            color: #1687d2;
+                        }
+                    }
+                }
+            }
+
+            p {
+                margin-top: 30px;
+                margin-bottom: 0;
+            }
+
+            .input-group {
+                width: 380px;
+                margin-top: 20px;
+                .input-section {
+                    
+
+                    form {
+                        input {
+                            display: inline-block;
+                            width: 300px;
+                            border: 1px solid rgba(88, 72, 42, 0.904);
+                            border-radius: 15px;
+                            padding: 8px 12px;
+                            outline: none;
+                        }
+
+                        button {
+                            border: none;
+                            outline: none;
+                            position: absolute;
+                            top: 7px;
+                            left: 10px;
+                            background-color: transparent;
+
+                            i {
+                                color: #af7d4ef5;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
