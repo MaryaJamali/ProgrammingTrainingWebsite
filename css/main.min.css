@@ -14,7 +14,7 @@
 
 .overlay {
   position: absolute;
-  background-color: rgba(141, 112, 31, 0.5);
+  background-color: #8d6d51;
   top: 0;
   left: 0;
   width: 100%;
@@ -61,8 +61,8 @@
 }
 
 #header-second-section {
-  min-height: 500px;
-  background: url("/img/background.jpg");
+  min-height: 550px;
+  background: url("/img/background/background-2.jpg");
   position: relative;
   background-size: cover;
   background-position: center;
