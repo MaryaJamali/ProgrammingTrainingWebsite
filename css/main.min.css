@@ -107,7 +107,7 @@
   border: none;
   outline: none;
   position: absolute;
-  top: 7px;
+  top: 10px;
   left: 10px;
   background-color: transparent;
 }
@@ -347,6 +347,7 @@
 #footer-section .footer-middle .footer_widget h4 {
   margin-top: 30px;
   margin-bottom: 0;
+  color: rgb(77, 49, 18);
 }
 #footer-section .footer-middle .footer_widget ul {
   list-style: none;
@@ -371,13 +372,13 @@
   margin-top: 30px;
   margin-bottom: 0;
 }
-#footer-section .footer-middle .footer_widget .input-group {
-  width: 380px;
+#footer-section .footer-middle .footer_widget .input-group .input-section {
+  width: 350px;
   margin-top: 20px;
 }
 #footer-section .footer-middle .footer_widget .input-group .input-section form input {
   display: inline-block;
-  width: 300px;
+  width: 380px;
   border: 1px solid rgba(88, 72, 42, 0.904);
   border-radius: 15px;
   padding: 8px 12px;
@@ -387,10 +388,20 @@
   border: none;
   outline: none;
   position: absolute;
-  top: 7px;
-  left: 10px;
+  border-radius: 15px;
+  top: 30px;
+  left: -7px;
   background-color: transparent;
-}
-#footer-section .footer-middle .footer_widget .input-group .input-section form button i {
   color: rgba(175, 125, 78, 0.9607843137);
+}
+#footer-section .footer-middle .footer_widget .input-group .input-section form button:hover {
+  color: rgba(88, 72, 42, 0.904);
+}
+#footer-section .footer-bottom {
+  margin-top: 60px;
+}
+#footer-section .footer-bottom .footer-item-bottom p {
+  margin-top: 30px;
+  font-size: 16px;
+  text-align: center;
 }/*# sourceMappingURL=main.min.css.map */
