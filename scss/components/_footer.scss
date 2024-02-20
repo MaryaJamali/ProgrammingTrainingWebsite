@@ -1,5 +1,5 @@
 #footer-section {
-    min-height: 350px;
+    min-height: 250px;
     background: #eec29b;
     position: relative;
     background-size: cover;
@@ -47,12 +47,12 @@
             }
 
             .input-group {
-                margin-top: 90px;
+                margin-top: 20px;
                 @include flexbox($f_d: column);
 
                 .input-section {
                     width: 350px;
-                    margin-top: 20px;
+                    margin-top: 10px;
                     position: relative;
 
                     form {

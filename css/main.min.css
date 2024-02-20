@@ -333,7 +333,7 @@
 }
 
 #footer-section {
-  min-height: 350px;
+  min-height: 250px;
   background: #eec29b;
   position: relative;
   background-size: cover;
@@ -373,7 +373,7 @@
   margin-bottom: 0;
 }
 #footer-section .footer-middle .footer_widget .input-group {
-  margin-top: 90px;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -381,7 +381,7 @@
 }
 #footer-section .footer-middle .footer_widget .input-group .input-section {
   width: 350px;
-  margin-top: 20px;
+  margin-top: 10px;
   position: relative;
 }
 #footer-section .footer-middle .footer_widget .input-group .input-section form input {
